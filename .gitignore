@@ -12,6 +12,7 @@ dist/
 dists/
 /logs/*
 /storage/*
+!.gitkeep 
 
 # misc
 .DS_Store
