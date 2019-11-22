@@ -1,0 +1,2 @@
+# verdaccio
+private npm hub
