@@ -108,5 +108,5 @@ notify:
   packagePattern: .*
   packagePatternFlags: i
   headers: [{ 'Content-type': 'application/json; charset=utf-8' }]
-  endpoint: https://oapi.dingtalk.com/robot/send?access_token=2522ca222fee55238c485794c9c1030f812e0aeb8f7c6b3a1ce69dade450bfb2
-  content: '{ "msgtype": "actionCard", "actionCard": { "title": "有包更新啦~\\(≧▽≦)/~", "text": "### {{name}} v{{dist-tags.latest}} 发布了 \n **描述** \n\n {{description}} \n\n **作者** \n\n {{maintainers.0.name}} &lt;{{maintainers.0.email}}&gt; \n", "hideAvatar": "0", "btnOrientation": "0", "singleTitle": "查看详情", "singleURL": "http://172.31.29.76:4873/#/detail/{{name}}" } }'
+  endpoint: https://oapi.dingtalk.com/robot/send?access_token=xxx
+  content: '{ "msgtype": "actionCard", "actionCard": { "title": "有包更新啦~\\(≧▽≦)/~", "text": "### {{name}} v{{dist-tags.latest}} 发布了 \n **描述** \n\n {{description}} \n\n **作者** \n\n {{publisher.name}} &lt;{{publisher.email}}&gt; \n", "hideAvatar": "0", "btnOrientation": "0", "singleTitle": "查看详情", "singleURL": "http://172.31.29.76:4873/#/detail/{{name}}" } }'
